@@ -8,35 +8,40 @@
 </head>
 
 <body>
-	<main>
-		<form action="#">
-			<div>
-				<h1>Регистрация</h1>
-				<p>Уже есть аккаунт?<span><a href="#">Войти</a></span> </p>
-			</div>
-			<label for="company"></label>
-			<input type="text" id="company" name="company" placeholder="Компания" required>
 
+	<form action="#">
+		<header>
+			<h1>Регистрация</h1>
+			<p>Уже есть аккаунт?<span><a href="#">Войти</a></span> </p>
+		</header>
+		<main>
 			<div>
-				<label for="name"></label>
-				<input type="text" id="name" name="name" placeholder="Имя" required>
-				<label for="surname"></label>
-				<input type="text" id="surname" name="surname" placeholder="Фамилия" required>
+				<label for="company"></label>
+				<input type="text" id="company" name="company" placeholder="Компания" required>
 			</div>
-
+			<div>
+				<div>
+					<label for="name"></label>
+					<input type="text" id="name" name="name" placeholder="Имя" required>
+				</div>
+				<div>
+					<label for="surname"></label>
+					<input type="text" id="surname" name="surname" placeholder="Фамилия" required>
+				</div>
+			</div>
 			<div>
 				<label for="email"></label>
 				<input type="email" id="email" name="email" placeholder="E-mail">
 			</div>
 			<button>Зарегистрироваться</button>
+
 			<div>
 				<input type="checkbox" name="agree" id="agree">
 				<label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+			</div>
+		</main>
+	</form>
 
-
-
-		</form>
-	</main>
 </body>
 
 </html>
